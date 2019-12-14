@@ -15,10 +15,11 @@
                 "/home/jeroen/Dropbox/work/github/benchmark_ros_ws/src/unreleased_deps/arf/arf_trajectory/include/**",
                 "/home/jeroen/Dropbox/work/github/benchmark_ros_ws/src/unreleased_deps/kuka_experimental/kuka_eki_hw_interface/include/**",
                 "/home/jeroen/Dropbox/work/github/benchmark_ros_ws/src/unreleased_deps/kuka_experimental/kuka_rsi_hw_interface/include/**",
-                "/usr/include/**"
+                "/usr/include/**",
+                "${workspaceFolder}/src/benchmark_planning_servers/arf_planning_server/include"
             ],
             "name": "ROS",
-            "intelliSenseMode": "gcc-x64",
+            "intelliSenseMode": "${default}",
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "c11",
             "cppStandard": "c++17"
