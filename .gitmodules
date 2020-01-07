@@ -1,21 +1,21 @@
 [submodule "src/unreleased_deps/rviz_tools_py"]
 	path = src/unreleased_deps/rviz_tools_py
-	url = git@github.com:JeroenDM/rviz_tools_py.git
+	url = https://github.com/JeroenDM/rviz_tools_py.git
 [submodule "src/unreleased_deps/arf"]
 	path = src/unreleased_deps/arf
-	url = git@github.com:JeroenDM/arf.git
+	url = https://github.com/JeroenDM/arf.git
 [submodule "src/nexon"]
 	path = src/nexon
-	url = git@bitbucket.org:jeroendm/nexon.git
+	url = https://bitbucket.org/jeroendm/nexon.git
 [submodule "src/benchmark_planning_servers"]
 	path = src/benchmark_planning_servers
-	url = git@github.com:JeroenDM/benchmark_planning_servers.git
+	url = https://github.com/JeroenDM/benchmark_planning_servers.git
 [submodule "src/benchmark_planning_setups"]
 	path = src/benchmark_planning_setups
-	url = git@github.com:JeroenDM/benchmark_planning_setups.git
+	url = https://github.com/JeroenDM/benchmark_planning_setups.git
 [submodule "src/unreleased_deps/kuka_experimental"]
 	path = src/unreleased_deps/kuka_experimental
 	url = https://github.com/ros-industrial/kuka_experimental.git
 [submodule "src/benchmark_runner"]
 	path = src/benchmark_runner
-	url = git@github.com:JeroenDM/benchmark_runner.git
+	url = https://github.com/JeroenDM/benchmark_runner.git
