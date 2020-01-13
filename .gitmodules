@@ -22,3 +22,6 @@
 [submodule "src/unreleased_deps/descartes"]
 	path = src/unreleased_deps/descartes
 	url = https://github.com/ros-industrial-consortium/descartes.git
+[submodule "src/unreleased_deps/descartes_opw_model"]
+	path = src/unreleased_deps/descartes_opw_model
+	url = git@github.com:JeroenDM/descartes_opw_model.git
