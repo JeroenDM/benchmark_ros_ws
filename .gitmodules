@@ -19,3 +19,6 @@
 [submodule "src/benchmark_runner"]
 	path = src/benchmark_runner
 	url = https://github.com/JeroenDM/benchmark_runner.git
+[submodule "src/unreleased_deps/descartes"]
+	path = src/unreleased_deps/descartes
+	url = https://github.com/ros-industrial-consortium/descartes.git
