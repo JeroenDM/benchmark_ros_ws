@@ -5,6 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "descartes server",
+            "type": "ros",
+            "request": "launch",
+            "target": "/home/jeroen/Dropbox/work/github/benchmark_ros_ws/src/benchmark_planning_servers/descartes_planning_server/launch/server.launch"
+        },
+        {
             "name": "ROS: Launch",
             "type": "ros",
             "request": "launch",

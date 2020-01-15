@@ -6,7 +6,7 @@
         {
             "label": "Build workspace",
             "type": "shell",
-            "command": "catkin build",
+            "command": "catkin build -DCMAKE_BUILD_TYPE=RelWithDebInfo",
             "problemMatcher": [],
             "group": {
                 "kind": "build",
