@@ -1,0 +1,12 @@
+# Task-space pose to find valid joint-space
+# configurations for
+geometry_msgs/Pose pose
+
+# Optional task-space goal constraints
+bool has_constraints
+nexon_msgs/PoseConstraint constraint
+---
+# output
+bool success
+JointConfig[] joint_configs
+

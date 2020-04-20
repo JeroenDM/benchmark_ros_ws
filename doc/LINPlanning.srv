@@ -1,0 +1,20 @@
+
+# Is there a joint space configuration given
+# as a starting point?
+bool use_start_config
+float64[] start_config
+
+# The start and the end of the weld line
+geometry_msgs/Pose start
+geometry_msgs/Pose goal
+
+# Optional path constraints
+# (Tolerance on end-effector position or orientation)
+bool has_constraints
+nexon_msgs/PoseConstraint pose_constraint
+
+---
+
+bool success
+trajectory_msgs/JointTrajectoryPoint[] joint_path
+

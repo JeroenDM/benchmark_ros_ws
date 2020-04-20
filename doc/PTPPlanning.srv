@@ -1,0 +1,16 @@
+# Joint space initial configuration
+float64[] start_config
+
+# Joint-space goal or task-space goal
+float64[] joint_goal
+geometry_msgs/Pose pose_goal
+
+# Optional task-space goal constraints
+bool has_constraints
+nexon_msgs/PoseConstraint pose_goal_constraint
+
+---
+
+bool success
+trajectory_msgs/JointTrajectoryPoint[] joint_path
+
