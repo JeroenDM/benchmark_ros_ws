@@ -5,6 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "run.py group_2",
+            "type": "ros",
+            "request": "launch",
+            "target": "/home/jeroen/Dropbox/work/github/benchmark_ros_ws/src/benchmark_runner/benchmark_runner/launch/run.launch"
+        },
+        {
             "name": "descartes server",
             "type": "ros",
             "request": "launch",

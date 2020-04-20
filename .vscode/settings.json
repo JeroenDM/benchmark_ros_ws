@@ -74,5 +74,6 @@
         "set": "cpp",
         "string": "cpp",
         "string_view": "cpp"
-    }
+    },
+    "python.formatting.provider": "autopep8"
 }
